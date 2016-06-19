@@ -1,6 +1,6 @@
 'use strict';
 
-var moduleT = {
+module.exports = {
     configs: {
         errors: require(".eslint/errors"),
         'best-practices': require(".eslint/best-practices"),
@@ -13,5 +13,3 @@ var moduleT = {
         react: require(".eslint/react")
     }
 };
-console.log(moduleT);
-module.exports = moduleT;

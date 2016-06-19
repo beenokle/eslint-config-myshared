@@ -13,10 +13,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
+  "main": "index.js",
   "dependencies": {
     "requireindex": "~1.1.0"
   },
@@ -30,6 +27,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "license": "ISC"
+  }
 }

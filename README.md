@@ -26,6 +26,18 @@ Add `common` to the plugins section of your `.eslintrc` configuration file. You 
 {
     "plugins": [
         "common"
-    ]
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:common/errors",
+        "plugin:common/best-practices",
+        "plugin:common/strict",
+        "plugin:common/variables",
+        "plugin:common/style",
+        "plugin:common/es6",
+        "plugin:common/flowtype",
+        "plugin:common/mocha",
+        "plugin:common/react"
+    ],
 }
 ```

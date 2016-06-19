@@ -1,0 +1,15 @@
+*.class
+*.log
+*.iml
+
+# IDE specific
+.scala_dependencies
+.worksheet
+.idea
+/out/*
+
+# Node.js specific
+node_modules
+
+# Bower specific
+bower_components

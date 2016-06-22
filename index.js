@@ -2,14 +2,14 @@
 
 module.exports = {
     configs: {
-        errors: require("./.eslint/errors"),
-        'best-practices': require("./.eslint/best-practices"),
-        strict: require("./.eslint/strict"),
-        variables: require("./.eslint/variables"),
-        style: require("./.eslint/style"),
-        es6: require("./.eslint/es6"),
-        flowtype: require("./.eslint/flowtype"),
-        mocha: require("./.eslint/mocha"),
-        react: require("./.eslint/react")
+        errors: require("./rules/errors"),
+        'best-practices': require("./rules/best-practices"),
+        strict: require("./rules/strict"),
+        variables: require("./rules/variables"),
+        style: require("./rules/style"),
+        es6: require("./rules/es6"),
+        flowtype: require("./rules/flowtype"),
+        mocha: require("./rules/mocha"),
+        react: require("./rules/react")
     }
 };

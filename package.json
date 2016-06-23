@@ -1,7 +1,6 @@
 {
-  "name": "eslint-plugin-common",
+  "name": "eslint-config-myshared",
   "version": "1.0.0",
-  "author": "alex-zer0 <alex1tut@mail.ru>",
   "description": "Common specific linting rules for ESLint",
   "main": "index.js",
   "peerDependencies": {

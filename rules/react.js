@@ -34,13 +34,13 @@ module.exports = {
     }],
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': [2, 4],
+    'react/jsx-indent-props': 0,
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 2,
     // Limit maximum of props on a single line in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': [2, {'maximum': 3}],
+    'react/jsx-max-props-per-line': [2, {'maximum': 5}],
     // Prevent usage of .bind() and arrow functions in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     'react/jsx-no-bind': 2,
@@ -128,6 +128,8 @@ module.exports = {
     'react/sort-comp': [2, {
       'order': [
         'static-methods',
+        '/^context$/',
+        '/^props$/',
         '/^state$/',
         'constructor',
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
